@@ -1,0 +1,69 @@
+.counter-card {
+  background-color: #ffc533;
+}
+.bg-container {
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+  justify-content: center;
+  font-style: 'Roboto';
+}
+.no-user-inputs {
+  width: 90%;
+  height: 300px;
+}
+
+.results-card {
+  width: 45vw;
+  height: 90vh;
+  background-color: #ffc533;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.add-container {
+  width: 45vw;
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffbf1f;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.input {
+  width: 350px;
+  height: 35px;
+  padding: 10px;
+  outline: none;
+  border-radius: 6px;
+  border-style: none;
+  margin-top: 40px;
+}
+.add-btn {
+  width: 80px;
+  height: 35px;
+  margin-left: 20px;
+  background-color: #ffc533;
+  color: #272c47;
+  border-style: none;
+  font-size: 18px;
+  font-style: 'Roboto';
+  border-radius: 6px;
+}
+
+.heading {
+  color: #0f172a;
+  background-color: #ffbf1f;
+  margin: 20px;
+  padding: 14px;
+  border-radius: 20px;
+}
+.counters-list {
+  overflow-y: auto;
+  height: 280px;
+  font-weight: bold;
+}
